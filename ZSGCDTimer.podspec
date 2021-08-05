@@ -9,23 +9,17 @@
 Pod::Spec.new do |s|
   s.name             = 'ZSGCDTimer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZSGCDTimer.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'GCD 计时器'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+基于GCD的计时器
                        DESC
 
-  s.homepage         = 'https://github.com/zhangs1992@126.com/ZSGCDTimer'
+  s.homepage         = 'https://github.com/TaylorsZ'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zhangs1992@126.com' => 'zhangs1992@126.com' }
-  s.source           = { :git => 'https://github.com/zhangs1992@126.com/ZSGCDTimer.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/TaylorsZ/ZSGCDTimer.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
